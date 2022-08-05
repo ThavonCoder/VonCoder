@@ -1,0 +1,97 @@
+   <html lang="en">
+   <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+   </head>
+   <body>
+     <div class="logo">
+        <i onclick="show()" class='bx bx-menu'></i>
+        <img src="youtube.png" alt="">
+        </div>
+    <div class="navi">
+        <ul>
+            <i class='bx bx-home'></i>
+            <li><a href="#"></a>Home</li>
+            <i class='bx bx-home'></i>
+            <li><a href="#"></a>Explore</li>
+            <i class='bx bx-home'></i>
+            <li><a href="#"></a>Shorts</li>
+            <i class='bx bx-home'></i>
+            <li><a href="#"></a>Subscriptions</li>
+            <i class='bx bx-home'></i>
+            <li><a href="#"></a>Library</li>
+        </ul>
+    </div>
+        <div class="sidebar">
+          <div id="sidebar">
+                <div class="logo">
+                    <i onclick="show()" class='bx bx-menu'></i>
+                    <img src="youtube.png" alt="">
+                </div>
+            <div class="nav">
+
+                <ul>
+                    <li><i class='bx bx-home'></i><a href="#">Home</a></li>
+                    <li><i class='bx bx-home'></i><a href="#">Explore</a></li>
+                    <li><i class='bx bx-home'></i><a href="#">Shorts</a></li>
+                    <li><i class='bx bx-home'></i><a href="#">Subscriptions</a></li>
+                    
+                </ul>
+                <hr>
+                <ul>
+                    <li><i class='bx bx-library'></i><a href="#">Library</a></li>
+                    <li><i class='bx bx-history' ></i><a href="#">History</a></li>
+                    <li><i class='bx bx-time-five' ></i><a href="#">Watch later</a></li>
+                    <li><i class='bx bx-like' ></i><a href="#">Like videos</a></li>
+                    
+                </ul>
+                <hr>
+                <ul>
+                    <p>Subscriptions</p>
+                    <li><i class='bx bx-library'></i><a href="#">Thavon</a></li>
+                    <li><i class='bx bx-history' ></i><a href="#">Seang</a></li>
+                    <li><i class='bx bx-time-five' ></i><a href="#">Channa</a></li>
+                    <li><i class='bx bx-like' ></i><a href="#">Mey Mey</a></li>
+                    <li><i class='bx bx-history' ></i><a href="#">Seang</a></li>
+                    <li><i class='bx bx-time-five' ></i><a href="#">Channa</a></li>
+                    
+                </ul>
+                <hr>
+                <ul>
+                    <p>Explore</p>
+                    <li><i class='bx bx-library'></i><a href="#">Gaming</a></li>
+                    <li><i class='bx bx-history' ></i><a href="#">Live</a></li>
+                    <li><i class='bx bx-time-five' ></i><a href="#">Fashion&Beau</a></li>
+                    <li><i class='bx bx-like' ></i><a href="#">Learning</a></li>
+                    <li><i class='bx bx-history' ></i><a href="#">Sports</a></li>
+                    
+                    
+                </ul>
+                <hr>
+            </div>
+
+            </div>
+        </div>
+        
+    <script> 
+
+        function show(){
+            var x = document.getElementById("sidebar");
+            if(x.style.left === "-100%"){
+                x.style.left = "0";
+               
+            }
+            else{
+                x.style.left = "-100%";
+            }
+        }
+
+    </script>
+   </body>
+   </html> 
